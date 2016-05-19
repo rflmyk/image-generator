@@ -1,0 +1,17 @@
+extends layout
+block content
+	h1 Image generator
+	h3 URL default: 
+	pre
+		code #{urlImageSample}
+	p The url above generator below image:
+	img(src="#{urlImageSample}")
+	p Below are settings be change:
+	pre
+		code { 
+			|	size: "#{settingsDefault.size}"
+			|	text: "#{settingsDefault.text}"
+			|	background: "#{settingsDefault.background}" <span>//hexadecimal without "#"</span>
+			|	color: "#{settingsDefault.color}" <span>//hexadecimal without "#"</span>
+			|	formatt: "#{settingsDefault.extension}"
+			| }
