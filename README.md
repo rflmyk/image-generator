@@ -2,6 +2,9 @@
 
 ## This is a image generator url parameter
 
+[Click here to see a real example](https://image-generator-rflmyk.herokuapp.com/)
+_let me know whether this App doesn't work ;)_
+
 Allow you chose:
 
   - Color
